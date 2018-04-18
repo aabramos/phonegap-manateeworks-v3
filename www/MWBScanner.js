@@ -1014,7 +1014,7 @@ var BarcodeScanner = {
           //Perform some action on scanning canceled if needed
         }
         else if (result && result.code){
-          navigator.notification.alert(result.code, function(){}, result.type + (result.isGS1?" (GS1)":""), 'Close');
+          
         }
     }
   }
