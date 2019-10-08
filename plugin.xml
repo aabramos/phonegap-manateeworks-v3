@@ -71,7 +71,7 @@ version="3.0.50">
  
     <!-- Camera Usage Description for iOS 10+ -->
     <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-        <string>We access your camera to scan barcodes.</string>
+        <string>$CAMERA_USAGE_DESCRIPTION</string>
     </config-file>
 
      <config-file target="config.xml" parent="/*">
