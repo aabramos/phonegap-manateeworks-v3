@@ -21,6 +21,7 @@ version="3.0.50">
     
 <config-file target="res/xml/config.xml" parent="/*">
 <preference name="CrosswalkAnimatable" value="true" />
+<preference name="CAMERA_USAGE_DESCRIPTION" default=" "/>
  <feature name="MWBarcodeScanner">
  <param name="android-package" value="com.manateeworks.BarcodeScannerPlugin"/>
  </feature>
